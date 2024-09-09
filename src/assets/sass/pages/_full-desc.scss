@@ -38,6 +38,10 @@
     display: flex;
     text-transform: capitalize;
     gap: 1rem;
+
+    @include respond(phone) {
+      flex-direction: column;
+    }
     p {
       display: flex;
       gap: 0.5rem;
