@@ -1,4 +1,5 @@
 export const data = [
+  // Livermore
   {
     img: "http://cdnparap30.paragonrels.com/ParagonImages/Property/P3/MAXEBRDI/41072444/0/0/0/e9a807118753bb7a1b4073077d34ce65/136/a3d8195609b4d50c937704c382b57814/41072444-ba403fce-bfd0-4954-b9e3-d4180edb29a4.JPG",
     price: 1599000,
@@ -218,4 +219,167 @@ export const data = [
 
     text: "Must see this stunning home in the highly desirable 'Bluffs' community surrounded by open space and hills. From the moment you drive up you will appreciate the premium end of court location and oversized estate lot. The double WEST facing front doors welcome you into the light and bright interior with upgraded plank and tile flooring. The functional floor plan features ONE FULL BEDROOM AND BATH DOWNSTAIRS and an OVERSIZED BONUS ROOM or possible 6th bedroom. Spacious chef style kitchen features large island with seating and sink, slab stone counters, gas range, double ovens, and abundant cabinetry with built-in desk area. Luxurious primary suite with bay window, plush neutral carpet and ceiling fan. The en-suite bath has a separate tub and walk-in shower with new seamless shower enclosure, double sinks, and separate vanity. Backyard is ready for entertaining with a fully gated in-ground pool and spa with pool SOLAR, gas fire pit, large grassy area, mature trees and side yard with storage shed and fruit trees. NO REAR NEIGHBORS!",
   },
+  {
+    img: "http://cdnparap30.paragonrels.com/ParagonImages/Property/P3/MAXEBRDI/41072759/0/0/0/03551d20de6a866c67360a77c82f88c7/136/692d6d501f4dda182be2f827ea08d0c2/41072759-eaea08c2-a009-4258-9922-2bd4687834d6.JPG",
+    price: 1189000,
+    area: 1427,
+    beds: 3,
+    baths: 2,
+    location: "livermore",
+    type: "residential",
+    built: 1970,
+    address: "728 Yolo Way Livermore CA, 94551",
+    interior: [
+      {
+        stories: 1,
+        bedrooms: 3,
+        totalBathrooms: 2,
+        fullBathrooms: 2,
+        interiorFeatures: ["Dining Area", "Family Room", "Updated Kitchen"],
+        appliances: ["Dishwasher", "Microwave", "Gas Water Heater"],
+        laundryDescription: "Hookups Only",
+        floorDescription: "Laminate",
+        fireplace: true,
+        fireplaceDescription: "family room",
+        cooling: false,
+        coolingDescription: "No",
+        heating: true,
+        heatingDescription: "forced air",
+      },
+    ],
+    exterior: [
+      {
+        lotSize: 0.23,
+        exteriorFeatures: ["Back Yard", "Front Yard"],
+        lotFeatures: ["corner lot", "premium lot"],
+        architechturalStyle: "ranch",
+        roof: "shingle",
+        sewer: "public sewer",
+      },
+    ],
+
+    otherDetails: [
+      {
+        garage: true,
+        garageSpaces: 2,
+        parking: ["Attached"],
+        parkingTotal: 2,
+        view: false,
+        county: "alameda",
+        waterSource: "public",
+        pool: true,
+        poolFeatures: ["above ground"],
+      },
+    ],
+
+    text: "Welcome to 728 Yolo Way! This picture-perfect, single-story, single-family home is located in the highly desirable Somerset neighborhood. It sits on an oversized lot, which offers the possibility of having dual side-yard access or significantly expanding the backyard. The home features three bedrooms, two full baths, and a formal living room, as well as a family room. Recent updates and improvements include updated kitchen and baths, updated baseboards, doors and casings, a finished garage, new with epoxy floors, newer roof, solar system and much more. Venture outside to enjoy a large yard, covered back patio, new lawn, and above-ground pool for those warm summer days! Or consider your own working farm! The current owners have enjoyed the covered patio as outdoor living 9 out of the 12 months of the year as it is a great place to relax and enjoy the fresh air. This property is just around the corner from the Henry R. Maitland Park, minutes from miles of biking and hiking trails, and just a short drive to Livermore's award-winning downtown, wine country, shopping, entertainment, and schools.",
+  },
+  {
+    img: "http://cdnparap30.paragonrels.com/ParagonImages/Property/P3/MAXEBRDI/41072444/0/0/0/e9a807118753bb7a1b4073077d34ce65/136/a3d8195609b4d50c937704c382b57814/41072444-ba403fce-bfd0-4954-b9e3-d4180edb29a4.JPG",
+    price: 1650000,
+    area: 2303,
+    beds: 5,
+    baths: 3,
+    location: "livermore",
+    type: "residential",
+    built: 1998,
+    address: "6460 Owl Way Livermore CA, 94551",
+    interior: [
+      {
+        stories: 2,
+        bedrooms: 5,
+        totalBathrooms: 3,
+        fullBathrooms: 2,
+        interiorFeatures: [
+          "Kitchen/Family Combo",
+          "Breakfast Bar",
+          "Stone Counters",
+          "Eat-in Kitchen",
+          "Updated Kitchen",
+          "Smart Thermostat",
+        ],
+        appliances: [
+          "Dishwasher",
+          "Disposal",
+          "Gas Range",
+          "Plumbed For Ice Maker",
+          "Microwave",
+          "Washer",
+          "Gas Water Heater",
+          "Tankless Water Heater",
+        ],
+        laundryDescription:
+          "220 Volt Outlet, Dryer, Gas Dryer Hookup, Laundry Room, Washer, Cabinets, Washer/Dryer Stacked Incl",
+        floorDescription: "Hardwood",
+        fireplace: true,
+        fireplaceDescription: "Stone, Wood Burning",
+        cooling: true,
+        coolingDescription: "Ceiling Fan(s), Zoned",
+        heating: true,
+        heatingDescription: "zoned",
+      },
+    ],
+    exterior: [
+      {
+        lotSize: 0.17,
+        exteriorFeatures: [
+          "Back Yard",
+          "Front Yard",
+          "Sprinklers Front",
+          "Landscape Back",
+          "Landscape Front",
+          "Low Maintenance",
+        ],
+        lotFeatures: ["regular"],
+        architechturalStyle: "Contemporary",
+        roof: "tile",
+        sewer: "public sewer",
+      },
+    ],
+    schoolInformation: [{ schoolDistrict: "Livermore Valley (925) 606-3200" }],
+    otherDetails: [
+      {
+        garage: true,
+        garageSpaces: 2,
+        parking: [
+          "Attached",
+          "Electric Vehicle Charging Station(s)",
+          "Garage Door Opener",
+        ],
+        parkingTotal: 2,
+        view: false,
+        county: "alameda",
+        waterSource: "public",
+        pool: true,
+        poolFeatures: [
+          "In Ground",
+          "Pool Sweep",
+          "Solar Heat",
+          "Spa",
+          "Pool/Spa Combo",
+          "Solar Pool Owned",
+          "Outdoor Pool",
+        ],
+      },
+    ],
+
+    text: `This amazing home is truly resort style living at its finest! Original owner
+home that shows pride of ownership throughout. This home is an entertainers
+dream home with a gorgeous saltwater pool w/raised spa including water features
+& solar heating, outdoor BBQ w/stubbed gas line. Stunning Hickory hardwood
+flooring throughout most of the home w/6.5" baseboards! Gourmet kitchen with
+shaker cabinets,granite counters, custom tile backsplash, drop lights, on demand
+hot water, SS stove/oven new in 2024, wine refrigerator & reverse osmosis!
+Primary bath remodel w/barn door, walk in shower, custom tile work, quartz
+counter & lighted mirrors! Upgrades to all bathrooms. Crown molding in all
+bedrooms, bathrooms, kitchen & family room. French doors lead you to your
+outdoor oasis. Large laundry room w/expanded cabinetry. Home office installation
+in loft. Solar for the home, Tesla charger, High End Lenox AC system, New HVAC
+system & Nest thermostats installed for dual zone system in 2023! New attic
+insulation in 2023. Closet organizers in all bedrooms. Garage Epoxy floor,
+Storage cabinets, water purifier, tankless water heater & new garage door
+opener. Drought tolerant front yard with artificial lawn & new irrigation
+controlled by phone app. Close to Schools, park, wine country, & HWYs 580/84`,
+  },
+  // Pleasanton
 ];
